@@ -1,0 +1,160 @@
+#progress{
+    width: 150px;
+    margin: auto;
+}
+
+progress{
+    display: inline-block;
+    moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 150px;
+    height: 20px;
+/*    background: -webkit-linear-gradient(#FFA500);
+    background:    -moz-linear-gradient(#FFA500);
+    background:      -o-linear-gradient(#FFA500);
+    background:         linear-gradient(#FFA500);*/
+    box-shadow: 0 1px 0 #FFFFFF;   
+}
+
+progress::-moz-progress-bar{
+    border-radius:10px;
+    background-color: grey;
+/*    background: 
+      -moz-repeating-linear-gradient(
+        45deg, 
+        rgba(255,255,255,.2) 0,
+        rgba(255,255,255,.2) 10px, 
+        rgba(255,255,255,0) 10px,
+        rgba(255,255,255,0) 20px
+      ),
+      -moz-linear-gradient(
+        rgba(255,255,255,.1) 50%,
+        rgba(255,255,255,0) 60%
+      ),
+     #FFA500;
+    background: 
+      repeating-linear-gradient(
+        45deg, 
+        rgba(255,255,255,.2) 0,
+        rgba(255,255,255,.2) 10px, 
+        rgba(255,255,255,0) 10px,
+        rgba(255,255,255,0) 20px
+      ),
+      linear-gradient(
+        rgba(255,255,255,.1) 50%,
+        rgba(255,255,255,0) 60%
+      ),
+      #09c;*/
+    background-size: 150px 20px, auto, auto;
+    background-position: -150px 0, top, top;
+    background-position: top right, top, top;
+    box-shadow: 0 1px 0 rgba(255,255,255,.5) inset, 
+                0 -1px 0 rgba(0,0,0,.8) inset,
+                0 0 2px black;
+  
+}
+
+
+
+body {
+ background-color: white;
+ margin: auto;
+ grid-gap: 10px;
+  display: grid;
+  width: 900px;
+  position: relative;
+  align-items: stretch;
+  justify-items: stretch;
+  justify-content: center;
+  grid-template-areas:	"titre titre titre"
+						"lettre_de_motivation lettre_de_motivation lettre_de_motivation"
+                    	"formation formation competences" 
+                        "xppro xppro competences"
+                        "avis avis avis"
+                        "footer footer footer";
+ 
+}
+
+
+.titre {
+color: #FFA500;
+font-family: "Open Sans Condensed";
+font-size:	20px;
+font-weight: bold;
+grid-area: titre;
+text-align: center;
+}
+
+
+.soustitre {
+text-align: center;
+color: #808080;
+font-family: "Playfair Display";
+font-size: 18px;
+grid-area: soustitre;
+}
+
+.lettre_de_motivation { 
+font-family: "Open Sans Condensed";
+font-size: 18px;
+border: 1px solid #FFA500;
+background-color: #FFFFFF;
+padding: 5px 60px 30px 60px;
+grid-area: lettre_de_motivation;
+}
+
+.signature {
+font-style: italic;
+text-align: right;
+padding: 5px 150px 0px 30px; 
+}
+
+.formation {
+grid-area: formation;
+font-family: "Open Sans Condensed";
+font-size: 18px;
+border: 1px solid #FFA500;
+background-color: #FFFFFF;
+padding: 5px 60px 30px 60px;
+align-items: center;
+width: 600px;
+}
+
+.xppro {
+font-family: "Open Sans Condensed";
+font-size: 18px;
+border: 1px solid #FFA500;
+background-color: #FFFFFF;
+padding: 5px 60px 30px 60px;
+grid-area: xppro;
+}
+
+.competences {
+grid-area: competences;
+font-family: "Open Sans Condensed";
+font-size: 18px;
+border: 1px solid #FFA500;
+background-color: #FFFFFF;
+padding: 5px 60px 30px 60px;
+}
+
+.avis {
+font-family: "Open Sans Condensed";
+border: 1px solid #FFA500;
+background-color: #FFFFFF;
+padding: 5px 60px 30px 60px;
+grid-area: avis;
+}
+
+.footer {
+text-align: center;
+color: #FFA500;
+background-color: #FFFFFF;
+font-family: "Open Sans Condensed";
+font-size: 11px;
+padding-top: 60px;
+grid-area: footer;
+}
+
+
+
