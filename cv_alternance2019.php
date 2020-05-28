@@ -11,7 +11,7 @@
   <body>
   	
     <div class="titre"><h1>Aurélie ANGLIO, développeuse en devenir !</h1>
-    <h3 class="soustitre">Candidate en pleine reconversion professionnelle: <a href="CVAurelie-maj15042020.pdf">CV en PDF</a></h3></div>
+    <h3 class="soustitre">Candidate en pleine reconversion professionnelle: <a href="CVAurelie-maj28052020.pdf">CV en PDF</a></h3></div>
     <br>
     
  <!-- Paragraphe de présentation avec une requête GET permettant d'indiquer le prénom, le nom et le sexe du recruteur pour afficher "Bonjour M. ou Mme XXX XXX" -->

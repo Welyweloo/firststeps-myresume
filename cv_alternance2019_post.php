@@ -22,7 +22,7 @@ catch (Exception $e)
 	<body>
 		
     <div class="titre"><h1>Aurélie ANGLIO, développeuse en devenir !</h1>
-		<p><h3 class="soustitre">Candidate en pleine reconversion professionnelle: <a href="CVAurelie-maj15042020.pdf">CV en PDF</a></h3></p>
+		<p><h3 class="soustitre">Candidate en pleine reconversion professionnelle: <a href="CVAurelie-maj28052020.pdf">CV en PDF</a></h3></p>
 	</div>
     <br>
     
